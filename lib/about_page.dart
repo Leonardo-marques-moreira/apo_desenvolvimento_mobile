@@ -32,7 +32,7 @@ class AboutPage extends StatelessWidget {
               ),
             const SizedBox(height:16),
             const Text(
-              'Lista cidades do Paraná com seus habitantes e traz uma saudação perfonalizada.',
+              'Lista cidades do Paraná com seus habitantes e traz uma saudação personalizada.',
               textAlign: TextAlign.center,
             ),
             const Spacer(flex: 3),
