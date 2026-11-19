@@ -1,17 +1,44 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+class HomePage extends StatefulWidget {
   const HomePage({super.key});
+
+  @override
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+    int _abaAtual = 0;
+
+    final List<Widget> _abas = const [
+      Center(child: Text('Cidades')),
+      Center(child: Text('Saudação')),
+    ];
 
 @override
   Widget build (BuildContext context) {
   return Scaffold(
     appBar: AppBar(
-        title: const Text('Paraná em Números'),
-        backgroundColor: Colors.green,
-        foregroundColor: Colors.white,
-    ),
-        body: const Center(child: Text('Tela Principal')),
-  );
- }
-}
+        title: const Text('Paraná em Números')),
+        body:  _abas[_abaAtual],
+        bottomNavigationBar: BottomNavigationBar(
+          currentIndex: _abaAtual,
+          onTap: (indice) {
+            setState(() {
+              _abaAtual = indice;
+            });
+          },
+          items: const [
+            BottomNavigationBarItem(
+                icon: Icon(Icons.list),
+                label: 'Cidades',
+            ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.person),
+                label: 'Saudação',
+            ),
+          ],
+        ),
+      );
+    }
+  }

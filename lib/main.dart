@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.green,
           foregroundColor: Colors.white,
-        )
+        ),
       ),
       home: const SplashPage(),
     );
