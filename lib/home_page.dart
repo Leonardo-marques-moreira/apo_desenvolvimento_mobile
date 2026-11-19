@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'about_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -19,7 +20,23 @@ class _HomePageState extends State<HomePage> {
   Widget build (BuildContext context) {
   return Scaffold(
     appBar: AppBar(
-        title: const Text('Paraná em Números')),
+        title: const Text('Paraná em Números'),
+        actions: [
+          PopupMenuButton<String>(
+            onSelected: (valor){
+              if (valor == 'sobre'){
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const AboutPage()),
+                );
+              }
+            },
+            itemBuilder: (context) => const[
+              PopupMenuItem(value: 'sobre', child: Text('Sobre')),
+            ],
+          )
+        ],
+    ),
         body:  _abas[_abaAtual],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _abaAtual,
