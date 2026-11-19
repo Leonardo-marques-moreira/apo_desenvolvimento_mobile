@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'about_page.dart';
+import 'saudacao_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -11,9 +12,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
     int _abaAtual = 0;
 
-    final List<Widget> _abas = const [
-      Center(child: Text('Cidades')),
-      Center(child: Text('Saudação')),
+    final List<Widget> _abas = [
+      const Center(child: Text('Cidades')),
+      const SaudacaoPage(),
     ];
 
 @override
