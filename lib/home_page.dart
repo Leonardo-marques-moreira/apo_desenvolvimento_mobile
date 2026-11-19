@@ -6,8 +6,12 @@ class HomePage extends StatelessWidget {
 @override
   Widget build (BuildContext context) {
   return Scaffold(
-    appBar: AppBar(title: const Text('Home')),
-    body: const Center(child: Text('Tela Principal')),
+    appBar: AppBar(
+        title: const Text('Paraná em Números'),
+        backgroundColor: Colors.green,
+        foregroundColor: Colors.white,
+    ),
+        body: const Center(child: Text('Tela Principal')),
   );
  }
 }
