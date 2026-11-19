@@ -23,6 +23,8 @@ class _HomePageState extends State<HomePage> {
         body:  _abas[_abaAtual],
         bottomNavigationBar: BottomNavigationBar(
           currentIndex: _abaAtual,
+          selectedItemColor:  Colors.green,
+          unselectedItemColor: Colors.grey,
           onTap: (indice) {
             setState(() {
               _abaAtual = indice;
