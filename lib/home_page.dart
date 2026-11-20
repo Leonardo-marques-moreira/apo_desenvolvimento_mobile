@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'about_page.dart';
 import 'saudacao_page.dart';
+import 'cidades_page.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -13,7 +15,7 @@ class _HomePageState extends State<HomePage> {
     int _abaAtual = 0;
 
     final List<Widget> _abas = [
-      const Center(child: Text('Cidades')),
+      const CidadesPage(),
       const SaudacaoPage(),
     ];
 
