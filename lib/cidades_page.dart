@@ -9,7 +9,7 @@ class CidadesPage extends StatelessWidget {
   Widget build(BuildContext context){
     return ListView(
       children: [
-        Card(
+          Card(
           child :ListTile(
           leading: CircleAvatar(
             backgroundColor: Color(0xFFC8E6C9),
@@ -17,13 +17,13 @@ class CidadesPage extends StatelessWidget {
             child:  Text('1º')
           ),
           title: Text('Curitiba'),
-          trailing: Text('1.773.718',
+          trailing: Text('1.832.183',
               style: TextStyle(fontSize: 16),
+              ),
             ),
           ),
-        ),
 
-        Card(
+         Card(
          child:  ListTile(
           leading: CircleAvatar(
             backgroundColor: Color(0xFFC8E6C9),
@@ -31,13 +31,13 @@ class CidadesPage extends StatelessWidget {
             child:  Text('2º'),
           ),
           title: Text('Londrina'),
-          trailing: Text('555.965',
+          trailing: Text('584.465',
               style: TextStyle(fontSize: 16),
+            ),
           ),
-        ),
-      ),
+         ),
 
-        Card(
+          Card(
           child:  ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
@@ -45,7 +45,7 @@ class CidadesPage extends StatelessWidget {
               child:  Text('3º'),
             ),
             title: Text('Maringá'),
-            trailing: Text('409.657',
+            trailing: Text('432.635',
                 style: TextStyle(fontSize: 16),
               ),
             ),
