@@ -28,7 +28,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Color(0xFF2E7D32),
       body: Center(
         child: Container(
           width: 160,
@@ -40,7 +40,7 @@ class _SplashPageState extends State<SplashPage> {
           child: const Icon(
             Icons.location_on_outlined,
             size: 56,
-            color: Colors.green,
+            color: Color(0xFF2E7D32),
           ),
         ),
       ),

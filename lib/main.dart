@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'APO Desenvolvimento Mobile',
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF2E7D32)),
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.green,
+          backgroundColor: Color(0xFF2E7D32),
           foregroundColor: Colors.white,
         ),
       ),
