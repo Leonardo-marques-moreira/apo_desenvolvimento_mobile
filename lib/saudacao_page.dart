@@ -70,6 +70,9 @@ class SaudacaoPage extends StatefulWidget{
                 controller: _controller,
                 decoration: InputDecoration(
                   hintText: 'Digite o seu nome',
+                  hintStyle: TextStyle(
+                    color: _erro != null ? Colors.red : null
+                  ),
                   errorText: _erro,
                   border: const OutlineInputBorder(),
                 ),
