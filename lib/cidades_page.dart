@@ -11,7 +11,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('1º'),
             ),
             title: Text('Curitiba'),
@@ -23,7 +23,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('2º'),
             ),
             title: Text('Londrina'),
@@ -35,7 +35,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('3º'),
             ),
             title: Text('Maringá'),
@@ -47,7 +47,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('4º'),
             ),
             title: Text('Ponta Grossa'),
@@ -59,7 +59,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('5º'),
             ),
             title: Text('Cascavel'),
@@ -71,7 +71,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('6º'),
             ),
             title: Text('São José dos Pinhais'),
@@ -83,7 +83,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('7º'),
             ),
             title: Text('Foz do Iguaçu'),
@@ -95,7 +95,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('8º'),
             ),
             title: Text('Colombo'),
@@ -107,7 +107,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('9º'),
             ),
             title: Text('Guarapuava'),
@@ -119,7 +119,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('10º'),
             ),
             title: Text('Fazenda Rio Grande'),
@@ -131,7 +131,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('11º'),
             ),
             title: Text('Araucária'),
@@ -143,7 +143,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('12º'),
             ),
             title: Text('Toledo'),
@@ -155,7 +155,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('13º'),
             ),
             title: Text('Paranaguá'),
@@ -167,7 +167,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('14º'),
             ),
             title: Text('Campo Largo'),
@@ -179,7 +179,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('15º'),
             ),
             title: Text('Apucarana'),
@@ -191,7 +191,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('16º'),
             ),
             title: Text('Pinhais'),
@@ -203,7 +203,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('17º'),
             ),
             title: Text('Sarandi'),
@@ -215,7 +215,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('18º'),
             ),
             title: Text('Piraquara'),
@@ -227,7 +227,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('19º'),
             ),
             title: Text('Almirante Tamandaré'),
@@ -239,7 +239,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('20º'),
             ),
             title: Text('Arapongas'),
@@ -251,7 +251,7 @@ class CidadesPage extends StatelessWidget {
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Color(0xFFC8E6C9),
-              foregroundColor: Colors.green,
+              foregroundColor: Color(0xFF2E7D32),
               child: Text('21º'),
             ),
             title: Text('Umuarama'),
