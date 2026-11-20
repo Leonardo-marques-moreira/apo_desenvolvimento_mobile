@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'splash_page.dart';
 
 void main() {
@@ -14,8 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'APO Desenvolvimento Mobile',
       theme: ThemeData(
-       useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor:  Colors.indigo),
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.green,
           foregroundColor: Colors.white,
